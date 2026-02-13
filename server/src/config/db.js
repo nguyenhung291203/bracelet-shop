@@ -15,7 +15,7 @@ connection.connect((err) => {
     console.error('Error connecting to MySQL:', err);
     return;
   }
-  console.log('Connected to MySQL database',process.env.DB_NAME);
+  console.log('Connected to MySQL database', process.env.DB_NAME);
 });
 
 export default connection;
