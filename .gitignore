@@ -1,12 +1,5 @@
-# ignore all node_modules anywhere
 **/node_modules/
-
-# env
 **/.env
-
-# logs
-*.log
-
-# build
 **/dist/
 **/build/
+*.log
